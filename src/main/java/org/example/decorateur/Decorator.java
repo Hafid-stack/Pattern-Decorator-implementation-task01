@@ -2,12 +2,11 @@ package org.example.decorateur;
 
 import org.example.composont.Drink;
 
-public class Decorator extends Drink {
-    private Drink drink;
+public abstract class Decorator extends Drink {
+    protected Drink drink;
 
-
-    @Override
-    public double price() {
-        return 0;
+    public Decorator(Drink drink) {
+        this.drink = drink;
     }
+
 }
