@@ -2,12 +2,11 @@ package org.example.composont;
 
 public class Milk extends Drink{
 
-    @Override
-    public void description() {
-        System.out.println("Milk");
+    public Milk (){
+        description = "Milk";
     }
     @Override
-    public void price() {
-        System.out.println("12");
+    public double price() {
+        return 11;
     }
 }

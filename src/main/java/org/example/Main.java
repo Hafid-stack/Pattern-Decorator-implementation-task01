@@ -8,8 +8,8 @@ import org.example.composont.Drink;
 public class Main {
     public static void main(String[] args) {
             Drink drink = new Cola();
-            drink.description();
-            drink.price();
+        System.out.println(drink.description());
+        System.out.println(drink.price());
 
 
     }

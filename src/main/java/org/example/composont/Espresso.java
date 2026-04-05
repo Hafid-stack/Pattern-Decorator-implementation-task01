@@ -2,11 +2,11 @@ package org.example.composont;
 
 public class Espresso extends Drink{
 
-    @Override
-    public void description() {
-        System.out.println("Espresso");
+
+    public Espresso (){
+        description = "Espresso";
     }
     @Override
-    public void price() {
-        System.out.println("15");    }
-}
+    public double price() {
+        return 15;
+    }}

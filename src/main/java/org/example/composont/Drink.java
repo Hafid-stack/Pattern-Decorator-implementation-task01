@@ -1,11 +1,9 @@
 package org.example.composont;
 
 public abstract class Drink {
-
-    public void description(){
-
-
-    }
-    public void price(){
-    }
+    protected String description;
+    public String description(){
+        return description;
+    };
+    public abstract double price();
 }
